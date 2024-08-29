@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const errorCorrection = errorCorrectionInput.value;
         
         if (text.trim() !== '') {
-            qrCodeDiv.innerHTML = ''; // Clear previous QR code
+            qrCodeDiv.innerHTML = '';
             qrCode = new QRCode(qrCodeDiv, {
                 text: text,
                 width: size,
@@ -37,7 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
         qrPopup.classList.add('hidden');
     });
 
-    // Function to download QR code as an image
+    qrPopup.addEventListener('click', (e) => {
+        if (e.target === qrPopup) {
+            qrPopup.classList.add('hidden');
+        }
+    });
+
     function downloadQRImage(type) {
         if (!qrCode) return;
         
@@ -51,17 +56,14 @@ document.addEventListener('DOMContentLoaded', () => {
         link.click();
     }
 
-    // Download PNG
     document.getElementById('downloadPng').addEventListener('click', () => {
         downloadQRImage('png');
     });
 
-    // Download JPEG
     document.getElementById('downloadJpeg').addEventListener('click', () => {
         downloadQRImage('jpeg');
     });
 
-    // Download SVG (with basic implementation)
     document.getElementById('downloadSvg').addEventListener('click', () => {
         if (!qrCode) return;
         const qrSvg = qrCode._oDrawing._el.getElementsByTagName("svg")[0].outerHTML;
@@ -72,4 +74,3 @@ document.addEventListener('DOMContentLoaded', () => {
         link.click();
     });
 });
-
