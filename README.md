@@ -1,6 +1,3 @@
-### **README.md File**
-
-```markdown
 # EcoQR: Sustainable QR Code Generator
 
 ## Overview
@@ -53,4 +50,3 @@ For any questions or suggestions, feel free to contact us through the GitHub rep
 ---
 
 *Thank you for using EcoQR! Let's work together to make technology more sustainable.*
-```
