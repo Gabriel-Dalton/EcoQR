@@ -19,7 +19,7 @@ To use EcoQR, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/EcoQR-Generator.git
+    git clone https://github.com/Gabriel-Dalton/EcoQR.git
     ```
 
 2. **Open the Project**:
