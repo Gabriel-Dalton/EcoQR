@@ -7,12 +7,15 @@
 - **Energy-Efficient Generation**: The QR code generation process is optimized to minimize CPU usage, which helps reduce energy consumption.
 - **Eco-Friendly Design**: The user interface uses a clean and minimalistic design with a green color palette that reflects the project’s commitment to sustainability.
 - **Digital-First Approach**: Encourages users to share QR codes digitally instead of printing them, reducing paper waste.
-- **Built with Simplicity**: Easy-to-use interface with a straightforward process for generating QR codes from text or URLs.
+- **Customizable QR Codes**: Users can personalize their QR codes by selecting colors, adjusting size, and choosing error correction levels.
+- **Interactive Popup Display**: The generated QR code is shown in a modern popup, which can be closed by clicking outside the popup area or on the close button.
+- **Download Options**: Users can download the generated QR code in multiple formats (PNG, JPEG, SVG).
 
 ## How It Works
 1. **Input**: Users enter the text or URL they want to convert into a QR code.
-2. **Generate**: Upon clicking the "Generate QR Code" button, the input is processed and converted into a QR code.
-3. **Output**: The generated QR code is displayed on the screen for the user to download or share digitally.
+2. **Customize**: Users can customize the QR code by setting its color, size, and error correction level.
+3. **Generate**: Upon clicking the "Generate QR Code" button, the input is processed and converted into a QR code.
+4. **Output**: The generated QR code is displayed in a popup for the user to download or share digitally. The popup can be closed by clicking outside it or on the close button.
 
 ## Getting Started
 To use EcoQR, follow these steps:
@@ -28,8 +31,9 @@ To use EcoQR, follow these steps:
 
 3. **Generate a QR Code**:
    - Enter the text or URL in the input field.
+   - Customize the QR code with your preferred color, size, and error correction level.
    - Click on "Generate QR Code".
-   - Your QR code will be generated and displayed.
+   - Your QR code will be displayed in a popup, where you can download it in PNG, JPEG, or SVG format.
 
 ## Sustainability Focus
 EcoQR is not just about generating QR codes; it's about doing so in a way that is conscious of our environmental impact. Here's how we incorporate sustainability:
