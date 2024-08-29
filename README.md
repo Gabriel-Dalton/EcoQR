@@ -42,7 +42,7 @@ EcoQR is not just about generating QR codes; it's about doing so in a way that i
 We welcome contributions to enhance EcoQR! Whether it’s improving the code, adding new features, or suggesting ways to make the project even more sustainable, your input is valued. Please feel free to fork the project, submit issues, or create pull requests.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 For any questions or suggestions, feel free to contact us through the GitHub repository’s issue tracker.
